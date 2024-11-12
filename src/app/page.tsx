@@ -1,14 +1,24 @@
-import Navbar from "./component/navbar"
+import Navbar from "./component/navbar";
+import Hero from "./component/hero";
+import Second from "./component/second";
+import Third from "./component/third";
+import Fourth from "./component/fourth";
+import Fifth from "./component/fifth";
+import Sixth from "./component/sixth";
+import Seventh from "./component/seventh";
+import Eighth from "./component/eighth";
 export default function home() {
   return(
     <div>
     <Navbar/>
-    <div className="w-full h-screen text-center py-48 text-7xl bg-slate-950">
-      <h1 className="mb-3">HI, I AM <span className="text-violet-800 font-bold">ZAHEER ALI</span></h1>
-      <h3 className="text-4xl mb-3 text-orange-600">A FRONTENED DEVELOPER</h3>
-      <h6 className="text-center text-sm font-bold">Building visually engaging, responsive websites that bring ideas to life.</h6>
-      <h6 className="text-center text-sm font-bold">Specializing in HTML, CSS, JavaScript, and modern frameworks to craft seamless, user-focused web experiences.</h6>
+    <Hero/>
+    <Second/>
+    <Third/>
+    <Fourth/>
+    <Fifth/>
+    <Sixth/>
+    <Seventh/>
+    <Eighth/>
     </div>
-  </div>
   )
 }
